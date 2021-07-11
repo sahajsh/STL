@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void setDemo(){           //we can also erase an element from set in log(N) time.
+void setDemo(){           //we can also erase an element from set in log(N) time for example-----> S.erase(1) by using this function
     set <int>S;
     S.insert(1);
     S.insert(2);
