@@ -40,7 +40,7 @@ int main(){
     for(int i=0;i<n;i++){
         int x,y;
         cin>>x>>y;
-        v.push_back({x,y});
+        v.push_back({x,y});// or we can use v.push_back(make_pair(x,y));
     }
     printVector(v);
 }
