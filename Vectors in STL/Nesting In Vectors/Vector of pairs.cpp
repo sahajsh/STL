@@ -44,3 +44,13 @@ int main(){
     }
     printVector(v);
 }
+/*
+input= 2
+        3 4
+        4 5
+
+output= size: 0
+        size: 2
+         3  4
+         4  5
+*/
