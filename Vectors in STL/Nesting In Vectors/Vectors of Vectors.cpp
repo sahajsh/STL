@@ -14,13 +14,7 @@ void printVector(vector<int>v){
         cout<<v[i]<<" ";
     }
     cout<<endl;
-  /*  
-    vector<vector<int>> v={ { 1, 2, 3 },      v[0]
-                          { 4, 5, 6 },        v[1]
-                          { 7, 8, 9, 4 } };   v[2]
-     where v is the vector of vectors (2-d vector) with a variable number of rows where each row is vector.
-                                                  
-      */
+ 
 }
 
 int main(){
