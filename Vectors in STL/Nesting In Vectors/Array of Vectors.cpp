@@ -10,7 +10,7 @@ void printVector(vector<int>&v){
 int main() {
     int N;
     cin>>N;
-    vector<int>v[N];
+    vector<int>v[N];//where v is the array of vectors of int of size N
     for(int i=0;i<N;i++){
         int n;
         cin>>n;
@@ -20,7 +20,7 @@ int main() {
             v[i].push_back(x);
         }
     }
-        for(int i=0;i<N;i++){   //print the vector
+        for(int i=0;i<N;i++){   
             printVector(v[i]);
         }
 
