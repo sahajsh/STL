@@ -8,8 +8,7 @@ void printVector(vector<int>&v){
     cout<<endl;
 }
 int main() {
-	
-	int N;
+    int N;
     cin>>N;
     vector<int>v[N];
     for(int i=0;i<N;i++){
@@ -21,7 +20,7 @@ int main() {
             v[i].push_back(x);
         }
     }
-        for(int i=0;i<N;i++){
+        for(int i=0;i<N;i++){   //print the vector
             printVector(v[i]);
         }
 
