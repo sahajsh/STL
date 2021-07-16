@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
 	
-	map<int,string>m;//map declaration where key is int and string is value.
+	map<int,string>m;//map declaration where key is of int datatype and value is of string dataype.
 	//inserting values-->
-	m[1]="abd";//key=m[1] and value "abd" Maps contain  key-value pair
+	m[1]="abd";//key=m[1] and value "abd" is string ..Maps contain  key-value pair
 	m[5]="dcf";
 	m[4]="sdf";
 	//inserting values another method
