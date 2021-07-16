@@ -32,6 +32,26 @@ and it can be inserted or deleted but cannot be altered. Value associated with k
 We can search, remove and insert in a map within O(n) time complexity.
 */
 
+//==================================================================================================================================================================
+
+// map function code--->
+#include<bits/stdc++.h>
+using namespace std;
+void print(map<int,string>&m){
+	cout<<m.size()<<endl;
+	for(auto &pr: m){
+		cout<<pr.first<<" "<<pr.second<<endl;
+	}
+}
+int main(){
+	map<int,string>m;
+	m[3]="abs";
+	m[2]="sac";
+	m[8]="wer";
+	m.insert({5,"abc"});
+	print(m);
+
+}
 
 //==============================================================================================
 //maps program in short using auto keyword--->
