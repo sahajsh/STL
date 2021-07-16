@@ -1,21 +1,22 @@
 //=====================ALL ABOUT MAPS ===================================================
+//Creating a Map in C++ STL = map<key_type , value_type> map_name;
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
 	
-	map<int,string>m;//map declaration where key is of int datatype and value is of string dataype.
+	map<int,string>m;//This will create a map with key of type Key_type and value of type value_type.
 	//inserting values-->
 	m[1]="abd";//key=m[1] and value "abd" is string ..Maps contain  key-value pair
 	m[5]="dcf";
 	m[4]="sdf";
 	//inserting values another method
 	m.insert({3,"wer"});
-	//print the map-->
+	//print the map-->key of a map and corresponding values are always inserted as a pair
 	map<int,string>::iterator it;
 	for(it=m.begin();it!=m.end();it++){
-		cout<<(*it).first<<" "<<(*it).second<<endl;//it->first and it->second
+		cout<<(*it).first<<" "<<(*it).second<<endl;//(it->first and it->second )
 	}
 	cout<<endl;
 	return 0;
