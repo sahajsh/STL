@@ -21,7 +21,7 @@ int main() {
 	cout<<endl;
 	return 0;
 }
-//output will print in sorted order
+//output= keys stored in sorted orderprint in sorted order
 /*
 1 abd
 3 wer
