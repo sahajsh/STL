@@ -19,7 +19,7 @@ int main() {
     s.insert("abc");//log(n) insertion 
     s.insert("dfg");
     s.insert("tyh");
-    auto it=s.find("abc");
+    
     print(s);
 
 	return 0;
