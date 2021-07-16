@@ -8,7 +8,7 @@ int main() {
 	
 	map<int,string>m;//This will create a map with key of type Key_type and value of type value_type.
 	//inserting values-->
-	m[1]="abd";//key=m[1] and value "abd" is string ..Maps contain  key-value pair
+	m[1]="abd";// inserts key = 1 with value = "abd"
 	m[5]="dcf";
 	m[4]="sdf";
 	//inserting values another method
