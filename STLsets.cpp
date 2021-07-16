@@ -1,5 +1,37 @@
                         //SETS---->//
 
+
+
+
+//Set is a  C++ STL container used to store the unique elements all elements are stored in a sorted manner.
+//Once the value is stored in the set, it cannot be modified within the set; 
+//instead, we can remove this value and can add the modified value of the element.
+
+#include <bits/stdc++.h>
+using namespace std;
+void print(set<string>s){
+    for(auto string:s){
+        cout<<string<<endl;
+    }
+}
+int main() {
+	set<string>s;
+    s.insert("abc");//log(n) insertion 
+    s.insert("dfg");
+    s.insert("tyh");
+    auto it=s.find("abc");
+    print(s);
+
+	return 0;
+}
+//output- abc
+//        dfg
+//        tyh
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -10,7 +42,7 @@ void setDemo(){           //we can also erase an element from set in log(N) time
     S.insert(-1);
     S.insert(-10);
     for(int x:S)
-        cout<<x<<" ";
+     cout<<x<<" ";
 
     cout<<endl;
    
