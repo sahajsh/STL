@@ -34,4 +34,19 @@ We can search, remove and insert in a map within O(n) time complexity.
 
 
 //==============================================================================================
+//maps program in short using auto keyword--->
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	map<int,string>m;
+	m[4]="saff";//inserting values to map
+	m[2]="dfg";
+	m[1]="wer";
+	m.insert({9,"asd"});//inserting values another approach
+	for(auto &pr:m){ 
+		cout<<pr.first<<" "<<pr.second<<endl;
+	}
+	
+}
 
