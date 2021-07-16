@@ -63,7 +63,7 @@ int main(){
 	m[4]="saff";//inserting values to map
 	m[2]="dfg";
 	m[1]="wer";
-	m[6]//6 is inserted in map so time complexity is o(log(n))
+	m[6];//6 is inserted in map so time complexity is o(log(n))
 	m.insert({9,"asd"});//inserting values another approach
 	for(auto &pr:m){ 
 		cout<<pr.first<<" "<<pr.second<<endl;
