@@ -45,7 +45,7 @@ void print(map<int,string>&m){
 }
 int main(){
 	map<int,string>m;
-	m[3]="abs";
+	m[3]="abs";//o(log(n)) time complexity where n is map current size 
 	m[2]="sac";
 	m[8]="wer";
 	m.insert({5,"abc"});
@@ -63,6 +63,7 @@ int main(){
 	m[4]="saff";//inserting values to map
 	m[2]="dfg";
 	m[1]="wer";
+	m[6]//6 is inserted in map so time complexity is o(log(n))
 	m.insert({9,"asd"});//inserting values another approach
 	for(auto &pr:m){ 
 		cout<<pr.first<<" "<<pr.second<<endl;
