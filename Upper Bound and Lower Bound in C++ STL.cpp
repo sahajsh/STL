@@ -38,8 +38,8 @@
      }
      cout<<endl;
     
-     //int *ptr=lower_bound(a,a+n,26);
-     int *ptr=upper_bound(a+4,a+n,3);
+    
+     int *ptr=upper_bound(a+4,a+n,3);//6
      cout<<(*ptr)<<" ";
  }
  /* 
