@@ -1,5 +1,5 @@
 //                                                         C++ STL Inbuilt Algorithms - Part1
-// Algorithms using vectors-----
+// Algorithms for vectors-----
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
