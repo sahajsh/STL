@@ -28,6 +28,10 @@ int main() {
     }else{
         cout<<"element not found";
     }
-	
+   reverse(v.begin(),v.end());
+   for(auto value:v){
+       cout<< value<<endl;//it will print reverse vector.
+   }
+   cout<<endl;
 }
 
