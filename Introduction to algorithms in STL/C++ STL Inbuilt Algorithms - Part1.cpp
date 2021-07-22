@@ -17,12 +17,17 @@ int main() {
     int max=*max_element(v.begin(),v.end());
     cout<<" the maximum element present in vector is: "<<max<<endl;
     // Demonstration of accumulate function
-	// to sum all the elements of the vector
-	sum = accumulate(v.begin(), v.end(), 0);
+   // to sum all the elements of the vector
+    sum = accumulate(v.begin(), v.end(), 0);
     cout<<" sum of all elements in vector: "<<sum<<endl;
     int ct=count(v.begin(),v.end(),3);
     cout << " Number of times 3 appears : "<<ct<<endl;
-
+    auto it=find(v.begin(),v.end(),3);
+    if(it!=v.end()){
+        cout<<" "<<*it<<" is found"<<endl;
+    }else{
+        cout<<"element not found";
+    }
 	
 }
 
